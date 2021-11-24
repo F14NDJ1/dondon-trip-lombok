@@ -66,15 +66,4 @@ class TransaksiController extends Controller
         Transaksi::create($valid_data);
         return redirect('/admin')->with('toast_success', 'Data Berhasil Ditambah!');
     }
-
-    public function show(Transaksi $transaksi)
-    {
-        $data = Transaksi::find($transaksi);
-        $transaksi = json_decode($data, true);
-        dd($transaksi);
-        // return view('admin/transaksi/show', compact($transaksi), [
-        //     "title" => "Detail Transaksi",
-
-        // ]);
-    }
 }

@@ -94,7 +94,7 @@
                             <tbody>
                                 @foreach ($transaksi as $tr)
                                 <tr>
-                                    <td><a href="/transaksi/transaksis/{{ $tr['id_trs'] }}" class="badge bg-info"><i class="fas fa-eye d-inline"></i></span></a></td>
+                                    <td><a href="/transaksi/transaksis/{{ $tr[id_transaksi] }}" class="badge bg-info"><i class="fas fa-eye d-inline"></i></span></a></td>
                                     <td>{{$tr["nama_pelanggan"]}}</td>
                                     <td>{{$tr["no_wa"]}}</td>
                                     <td>{{$tr["kategori"]}}</td>

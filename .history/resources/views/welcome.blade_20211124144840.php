@@ -16,19 +16,19 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
+    <link href="vendors/plyr/plyr.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
@@ -189,7 +189,24 @@
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
-                        <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok</p>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Home</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Video</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Destinations</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Booking</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Contact</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Pricing</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-auto mb-4">
+                        <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok;
+                            <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3984F3" viewBox="0 0 16 16">
+                                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                            </svg><a class="text-700" href="https://themewagon.com/" target="_blank"></a>
+                        </p>
                     </div>
                 </div>
                 <div class="row flex-center">
@@ -229,10 +246,10 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <!-- <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/plyr/plyr.polyfilled.min.js"></script> -->
+    <script src="vendors/plyr/plyr.polyfilled.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="assets/js/theme.js"></script>
 

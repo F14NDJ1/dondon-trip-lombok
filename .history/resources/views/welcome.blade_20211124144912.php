@@ -16,19 +16,19 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
+    <link href="vendors/plyr/plyr.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
@@ -189,6 +189,19 @@
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Home</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Video</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Destinations</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Booking</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Contact</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Pricing</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-auto mb-4">
                         <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok</p>
                     </div>
                 </div>
@@ -229,10 +242,10 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <!-- <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/plyr/plyr.polyfilled.min.js"></script> -->
+    <script src="vendors/plyr/plyr.polyfilled.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="assets/js/theme.js"></script>
 

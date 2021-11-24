@@ -72,9 +72,9 @@ class TransaksiController extends Controller
         $data = Transaksi::find($transaksi);
         $transaksi = json_decode($data, true);
         dd($transaksi);
-        // return view('admin/transaksi/show', compact($transaksi), [
-        //     "title" => "Detail Transaksi",
+        return view('admin/transaksi/show', compact($transaksi), [
+            "title" => "Detail Transaksi",
 
-        // ]);
+        ]);
     }
 }

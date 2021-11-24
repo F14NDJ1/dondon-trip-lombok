@@ -23,13 +23,19 @@ DI HALAMAN TRANSAKSI TIDAK BISA TAMPIL SEMUA DATA(done)
 Route::get(
     '/',
     function () {
-        $produk = Produk::all();
+        // $produks = json_decode($produk, true);
+        $produk = Produk::all()->paginate(5);
         return view('welcome ', compact('produk'));
         // return view('welcome', [
         //     "produk" => Produk::all()
         // ]);
+    },
+    function (Request $request) {
+        if ($request->ajax()) {
+            $data = Produk::all()->paginate(5);
+            return view('pagination_data', compact('data'))->render();
+        }
     }
-
 );
 Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');

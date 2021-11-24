@@ -16,19 +16,19 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
+    <link href="vendors/plyr/plyr.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
@@ -189,14 +189,31 @@
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
-                        <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok</p>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Home</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Video</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Destinations</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Booking</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Contact</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Pricing</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-auto mb-4">
+                        <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok;
+                            <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3984F3" viewBox="0 0 16 16">
+                                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                            </svg>&nbsp;by&nbsp;<a class="text-700" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
+                        </p>
                     </div>
                 </div>
                 <div class="row flex-center">
                     <div class="col-auto">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
-                                    <svg class="bi bi-tiktok" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                    <svg class="bi bi-ttiktok" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
                                     </svg></a></li>
                             <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
@@ -229,10 +246,10 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <!-- <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/plyr/plyr.polyfilled.min.js"></script> -->
+    <script src="vendors/plyr/plyr.polyfilled.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="assets/js/theme.js"></script>
 

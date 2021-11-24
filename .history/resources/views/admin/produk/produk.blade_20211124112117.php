@@ -96,7 +96,7 @@
                                     <td><img src="{{$produk['gambar']}}" alt="" width="200px"></td>
                                     <td>{{$produk["deskripsi"]}}</td>
                                     <td>
-                                        <a href="" class="badge bg-info"><i class="fas fa-eye d-inline"></i></span></a>
+                                        <a href="" class="badge bg-info"><i class="fas fa-eye"></i></span></a>
                                         <a href="/produk/produks/{{$produk->id_produk}}/edit" class="badge bg-warning"><i class="fas fa-edit d-inline"></i></a>
                                         <form action="/produk/produks/{{$produk->id_produk}}" method="post" class="d-inline">
                                             @method ('delete')

@@ -31,7 +31,7 @@ class TransaksiController extends Controller
                 'produks.id_produk as id_prd',
                 'produks.kategori as kategori',
                 'produks.nama_produk as nama_produk',
-                'produks.harga_produk as harga_prdk'
+                'produks.harga_produk as harga_produk'
             )
             ->get();
         // $data = Transaksi::with('produk')->get();
@@ -65,16 +65,5 @@ class TransaksiController extends Controller
 
         Transaksi::create($valid_data);
         return redirect('/admin')->with('toast_success', 'Data Berhasil Ditambah!');
-    }
-
-    public function show(Transaksi $transaksi)
-    {
-        $data = Transaksi::find($transaksi);
-        $transaksi = json_decode($data, true);
-        dd($transaksi);
-        // return view('admin/transaksi/show', compact($transaksi), [
-        //     "title" => "Detail Transaksi",
-
-        // ]);
     }
 }

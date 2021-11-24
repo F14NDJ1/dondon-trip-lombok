@@ -19,25 +19,25 @@ class TransaksiController extends Controller
     public function index()
     {
 
-        $data = DB::table('transaksis')
-            ->join('produks', 'transaksis.id_transaksi', '=', 'produks.id_produk')
-            ->select(
-                'transaksis.id_transaksi as id_trs',
-                'transaksis.nama_pelanggan as nama_pelanggan',
-                'transaksis.no_wa as no_wa',
-                'transaksis.total_pembayaran as total',
-                'transaksis.status as status',
-                'transaksis.created_at as tanggal',
-                'produks.id_produk as id_prd',
-                'produks.kategori as kategori',
-                'produks.nama_produk as nama_produk',
-                'produks.harga_produk as harga_prdk'
-            )
-            ->get();
-        // $data = Transaksi::with('produk')->get();
+        // $data = DB::table('transaksis')
+        //     ->join('produks', 'transaksis.id_transaksi', '=', 'produks.id_produk')
+        //     ->select(
+        //         'transaksis.id_transaksi as id_trs',
+        //         'transaksis.nama_pelanggan as nama',
+        //         'transaksis.no_wa as no_wa',
+        //         'transaksis.total_pembayaran as total',
+        //         'transaksis.status as status',
+        //         'transaksis.created_at as tanggal',
+        //         'produks.id_produk as id_prd',
+        //         'produks.kategori as kategori',
+        //         'produks.nama_produk as nama_prdk',
+        //         'produks.harga_produk as harga_prdk'
+        //     )
+        //     ->get();
+        $data = Transaksi::with('produk')->get();
 
-        $transaksi = json_decode($data, true);
-        // dd($transaksi);
+        // $transaksi = json_decode($data, true);
+        dd($transaksi);
         return view('/admin/transaksi/index', compact('transaksi'), [
             "title" => "Data Transaksi",
             "produk" => Produk::all()
@@ -65,16 +65,5 @@ class TransaksiController extends Controller
 
         Transaksi::create($valid_data);
         return redirect('/admin')->with('toast_success', 'Data Berhasil Ditambah!');
-    }
-
-    public function show(Transaksi $transaksi)
-    {
-        $data = Transaksi::find($transaksi);
-        $transaksi = json_decode($data, true);
-        dd($transaksi);
-        // return view('admin/transaksi/show', compact($transaksi), [
-        //     "title" => "Detail Transaksi",
-
-        // ]);
     }
 }

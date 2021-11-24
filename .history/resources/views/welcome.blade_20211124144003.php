@@ -16,19 +16,19 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
+    <link href="vendors/plyr/plyr.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
@@ -47,7 +47,7 @@
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link text-600" href="#places">Trip</a></li>
-                        <li class="nav-item"><a class="nav-link text-600" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link text-600" href="#featuresVideos">Video</a></li>
                         <li class="nav-item"><a class="nav-link text-600" href="#booking">Booking </a></li>
                     </ul>
                     <form class="ps-lg-5">
@@ -117,12 +117,12 @@
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
-        <section class="pt-5" id="gallery">
+        <section class="pt-5" id="featuresVideos">
 
             <div class="container">
                 <div class="row flex-center mb-5">
                     <div class="col-lg-8 text-center">
-                        <h1 class="fw-bold fs-md-3 fs-lg-4 fs-xl-5">Gallery</h1>
+                        <h1 class="fw-bold fs-md-3 fs-lg-4 fs-xl-5">Featured videos</h1>
                         <hr class="mx-auto text-primary my-4" style="height:3px; width:70px;" />
                         <p class="mx-auto">Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at imperdiet justo euismod eu. Aliquam vel imperdet mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus, molestie nisi id, elementum sem. Sed vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.</p>
                     </div>
@@ -132,12 +132,26 @@
                         <div class="carousel slide" id="carouselExampleIndicators" data-bs-touch="false" data-bs-interval="false">
                             <div class="row align-items-center">
                                 <div class="col-12 col-xxl-7 px-2">
-                                    <div class="row align-items-center">
-                                        <div class="col align-items-center      ">
-                                            One of three columns
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active h-100">
+                                            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY">
+                                                <iframe src="https://www.youtube.com/embed/zLeLttVbFs8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            One of three columns
+                                        <div class="carousel-item">
+                                            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY">
+                                                <iframe src="https://www.youtube.com/results?search_query=seo+laravel+8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY">
+                                                <iframe src="https://www.youtube.com/embed/xf86EzuLXu0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY">
+                                                <iframe src="https://www.youtube.com/embed/YkEd_aorIiI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -189,19 +203,40 @@
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
-                        <p class="mb-0 fs--1 text-dark">&copy; Copy right Dondon Trip Lombok</p>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Home</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Video</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Destinations</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Booking</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Contact</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Pricing</a></li>
+                            <li class="list-inline-item me3 me-sm-4"><a class="text-dark text-decoration-none" href="#!">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-auto mb-4">
+                        <p class="mb-0 fs--1 text-dark">&copy; This template is made with&nbsp;
+                            <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3984F3" viewBox="0 0 16 16">
+                                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                            </svg>&nbsp;by&nbsp;<a class="text-700" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
+                        </p>
                     </div>
                 </div>
                 <div class="row flex-center">
                     <div class="col-auto">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
-                                    <svg class="bi bi-tiktok" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                    <svg class="bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
                                     </svg></a></li>
                             <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
                                     <svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3984F3" viewBox="0 0 16 16">
                                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                    </svg></a></li>
+                            <li class="list-inline-item me-3"><a href="#!">
+                                    <svg class="bi bi-twitter" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3984F3" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
                                     </svg></a></li>
                             <li class="list-inline-item me-3"><a href="#!">
                                     <svg class="bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3984F3" viewBox="0 0 16 16">
@@ -229,10 +264,10 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <!-- <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/plyr/plyr.polyfilled.min.js"></script> -->
+    <script src="vendors/plyr/plyr.polyfilled.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="assets/js/theme.js"></script>
 

@@ -7,7 +7,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\TransaksiController;
 use App\Models\Produk;
-use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,19 +17,21 @@ use Illuminate\Http\Request;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-DI HALAMAN TRANSAKSI TIDAK BISA TAMPIL SEMUA DATA(done)
+DI HALAMAN TRANSAKSI TIDAK BISA TAMPIL SEMUA DATA
 */
 
 Route::get(
     '/',
     function () {
-        $produk = Produk::all();
+        // $produks = json_decode($produk, true);
+        $produk = Produk::all()->paginate(5);
         return view('welcome ', compact('produk'));
         // return view('welcome', [
         //     "produk" => Produk::all()
         // ]);
+    },
+    function () {
     }
-
 );
 Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');

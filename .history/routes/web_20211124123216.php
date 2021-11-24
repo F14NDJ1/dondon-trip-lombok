@@ -23,7 +23,7 @@ DI HALAMAN TRANSAKSI TIDAK BISA TAMPIL SEMUA DATA(done)
 Route::get(
     '/',
     function () {
-        $produk = Produk::all();
+        $produk = Produk::all()->paginate(5);
         return view('welcome ', compact('produk'));
         // return view('welcome', [
         //     "produk" => Produk::all()

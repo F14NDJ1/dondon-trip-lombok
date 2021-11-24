@@ -81,7 +81,6 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>Aksi</th>
                                     <th>Nama Pelanggan</th>
                                     <th>No WhatsApp</th>
                                     <th>Kategori</th>
@@ -94,10 +93,9 @@
                             <tbody>
                                 @foreach ($transaksi as $tr)
                                 <tr>
-                                    <td><a href="/transaksi/transaksis/{{ $tr['id_trs'] }}" class="badge bg-info"><i class="fas fa-eye d-inline"></i></span></a></td>
                                     <td>{{$tr["nama_pelanggan"]}}</td>
                                     <td>{{$tr["no_wa"]}}</td>
-                                    <td>{{$tr["kategori"]}}</td>
+                                    <td>{{$tr->produk["kategori"]}}</td>
                                     <td>{{$tr["nama_produk"]}}</td>
                                     <td>{{$tr["harga_prdk"]}}</td>
                                     <td>{{$tr["total"]}}</td>
@@ -107,7 +105,6 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>Aksi</th>
                                     <th>Nama Pelanggan</th>
                                     <th>No WhatsApp</th>
                                     <th>Kategori</th>

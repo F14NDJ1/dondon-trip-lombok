@@ -69,12 +69,10 @@ class TransaksiController extends Controller
 
     public function show(Transaksi $transaksi)
     {
-        $data = Transaksi::find($transaksi);
-        $transaksi = json_decode($data, true);
-        dd($transaksi);
-        // return view('admin/transaksi/show', compact($transaksi), [
-        //     "title" => "Detail Transaksi",
+        // dd($transaksi);
+        return view('admin/transaksi/show', compact($transaksi), [
+            "title" => "Detail Transaksi",
 
-        // ]);
+        ]);
     }
 }
