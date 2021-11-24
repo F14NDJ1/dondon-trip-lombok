@@ -24,9 +24,7 @@ Route::get('/', function () {
     $produk = Produk::all();
 
     // $produks = json_decode($produk, true);
-    return view('welcome', [
-        "produk" => Produk::all()
-    ]);
+    return view('welcome', compact($produk));
 });
 Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');

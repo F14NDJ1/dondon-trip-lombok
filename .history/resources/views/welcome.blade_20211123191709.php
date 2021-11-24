@@ -90,7 +90,7 @@
                                     <div class="row h-100">
                                         <!-- LOOP -->
                                         @foreach($produk as $p)
-                                        <div class="col-md-4 mb-3">
+                                        <div class="col-md-4 mb-9 mb-md-0">
                                             <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="{{ $p->gambar }}" alt="" />
                                                 <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
                                                     <div class="pt-3"><span class="badge bg-primary">{{ $p->harga_produk }}</span></div>

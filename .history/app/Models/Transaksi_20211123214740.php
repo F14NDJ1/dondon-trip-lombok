@@ -13,10 +13,10 @@ class Transaksi extends Model
     // protected $fillable = ['nama_pelanggan', 'no_wa', 'id_produk', 'total_pembayaran', 'status'];
     protected $guarded = ['id_transaksi'];
 
-    // protected $primaryKey = 'id_transaksi';
+    protected $primaryKey = 'id_transaksi';
 
     public function produk()
-    {
+    {,
         return $this->belongsTo(Produk::class, 'id_produk'); //untuk menghubungkan antar model
     }
 }

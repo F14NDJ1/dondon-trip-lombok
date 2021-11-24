@@ -65,7 +65,7 @@
                 <div class="row align-items-center min-vh-75 my-lg-8">
                     <div class="col-md-7 col-lg-6 text-center text-md-start py-8">
                         <h1 class="mb-4 display-1 lh-sm">Dondon Trip Lombok</h1>
-                        <p class="mt-4 mb-5 fs-1 lh-base">Lagi cape, butuh hiburan? Ayo ke Dondon Dreams ! <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Pesan Sekarang</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
+                        <p class="mt-4 mb-5 fs-1 lh-base">Lagi cape, butuh hiburan? Ayo ke Dondon Dreams ! <br class="d-none d-lg-block" />Berbagai Antraksi disediakan disini. <br class="d-none d-lg-block" />Pesan Sekarang</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
                     </div>
                 </div>
             </div>
@@ -88,19 +88,66 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="row h-100">
-                                        <!-- LOOP -->
-                                        @foreach($produk as $p)
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="{{ $p->gambar }}" alt="" />
+                                        <div class="col-md-4 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/maldives.png" alt="" />
                                                 <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
-                                                    <div class="pt-3"><span class="badge bg-primary">{{ $p->harga_produk }}</span></div>
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 100.000</span></div>
                                                     <div class="ps-3 d-flex justify-content-between align-items-center">
                                                         <h5 class="text-white">Board</h5>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        @endforeach
+                                        <div class="col-md-4 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/indonesia.png" alt="" />
+                                                <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 860.000</span></div>
+                                                    <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                        <h5 class="text-white">Rash Guard</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/kathmandu.png" alt="" />
+                                                <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 340.000</span></div>
+                                                    <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                        <h5 class="text-white">BoardShort</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mt-3 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/maldives.png" alt="" />
+                                                <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 340.000</span></div>
+                                                    <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                        <h5 class="text-white">Leash</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mt-3 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/maldives.png" alt="" />
+                                                <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 340.000</span></div>
+                                                    <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                        <h5 class="text-white">Wax</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mt-3 mb-3 mb-md-0">
+                                            <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="assets/img/gallery/maldives.png" alt="" />
+                                                <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                                    <div class="pt-3"><span class="badge bg-primary">Rp 340.000</span></div>
+                                                    <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                        <h5 class="text-white">Wax Comb</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -20,13 +20,11 @@ use App\Models\Produk;
 DI HALAMAN TRANSAKSI TIDAK BISA TAMPIL SEMUA DATA
 */
 
-Route::get('/', function () {
+Route::get('/', function ($produk) {
     $produk = Produk::all();
 
-    // $produks = json_decode($produk, true);
-    return view('welcome', [
-        "produk" => Produk::all()
-    ]);
+    $produks = json_decode($produk, true);
+    return view('welcome', compact($produks));
 });
 Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
