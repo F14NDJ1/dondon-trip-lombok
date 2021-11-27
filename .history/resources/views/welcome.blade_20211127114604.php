@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dondon Trip Lombok | Landing Page</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <link href="assets/css/theme.css" rel="stylesheet" />

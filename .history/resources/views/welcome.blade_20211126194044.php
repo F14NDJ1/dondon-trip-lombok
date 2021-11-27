@@ -5,19 +5,43 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
     <title>Dondon Trip Lombok | Landing Page</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
     <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
 
 
 <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
     <main class="main" id="top">
         <nav class="navbar navbar-expand-lg fixed-top py-3 backdrop" data-navbar-on-scroll="data-navbar-on-scroll">
-            <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"> <img class="d-inline-block align-top img-fluid img-thumbnail rounded-circle" src="img/dondon-word.png" alt="" width="50" /><span class="text-primary fs-4 ps-2">Dondon Trip Lombok</span></a>
+            <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"> <img class="d-inline-block align-top img-fluid img-thumbnail rounded-circle" src="img/dondon-trip.png" alt="" width="50" /><span class="text-primary fs-4 ps-2">Dondon Trip Lombok</span></a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
@@ -26,36 +50,38 @@
                         <li class="nav-item"><a class="nav-link text-600" href="#gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link text-600" href="#booking">Booking </a></li>
                     </ul>
+                    <!-- <form class="ps-lg-5">
+                        <a href="/admin">Admin</a>
+                    </form> -->
                 </div>
             </div>
         </nav>
-
-
         <section class="py-0">
-            <div class="bg-holder d-none d-md-block" style="background-image:url(img/kano_aja.png);background-position:right bottom;background-size:contain;">
+            <div class="bg-holder d-none d-md-block" style="background-image:url(img/kano.png);background-position:right bottom;background-size:contain;">
             </div>
+            <!--/.bg-holder-->
+
             <div class="container position-relative">
                 <div class="row align-items-center min-vh-75 my-lg-8">
                     <div class="col-md-7 col-lg-6 text-center text-md-start py-8">
                         <h1 class="mb-4 display-1 lh-sm">Dondon Trip Lombok</h1>
-                        <h4>JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h4>
-                        <p class=" mt-4 mb-5 fs-1 lh-base">Liburan di Lombok kurang lengkap kalau belum cobain berbagai trip di pantai Dondon. <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Tunggu Apa lagi
-                            pesan sekarang juga!</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
+                        <p class="mt-4 mb-5 fs-1 lh-base">Lagi cape, butuh hiburan? Ayo ke Dondon Trip Lombok ! <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Pesan Sekarang</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
                     </div>
                 </div>
             </div>
         </section>
 
 
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section id="places">
+
             <div class="container">
                 <div class="row flex-md-center">
                     <div class="col-md-11 col-lg-4 py-md-3 px-4 px-md-3 px-lg-0 px-xl-2 order-lg-1">
-                        <h1 class="fw-bold fs-md-3 fs-xl-5">Berbagai paket trip dan permainan air di pantai dondon.</h1>
+                        <h1 class="fw-bold fs-md-3 fs-xl-5">Berbagai alat surfing dan trip disekitar pantai dondon.</h1>
                         <hr class="text-primary my-4 my-lg-3 my-xl-4" style="height:3px; width:70px;" />
-                        <p class="lh-lg">Bingung ke pantai mau ngapain ? di Dondon Trip Lombok ada berbagai Trip menarik nih mulai dari Surf Trip,
-                            Manggrove Trip dan Sunset Trip. Selain Trip ada juga Banana Boat dan Kano yang bisa kalian nikmati bersama keluarga,
-                            teman ataupun pasangan.</p><a class="btn btn-lg btn-primary hover-top" href="#" role="button">More</a>
+                        <p class="lh-lg">Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in.</p><a class="btn btn-lg btn-primary hover-top" href="#" role="button">More</a>
                     </div>
                     <div class="col-lg-8 order-lg-0 order-1 px-4 px-md-3 py-8 py-md-3">
                         <div class="carousel slide" id="carouselExampleControlsNoTouching" data-bs-touch="false" data-bs-interval="false">
@@ -82,95 +108,58 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section class="pt-5" id="gallery">
+
             <div class="container">
                 <div class="row flex-center mb-5">
                     <div class="col-lg-8 text-center">
                         <h1 class="fw-bold fs-md-3 fs-lg-4 fs-xl-5">Gallery</h1>
                         <hr class="mx-auto text-primary my-4" style="height:3px; width:70px;" />
+                        <p class="mx-auto">Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at imperdiet justo euismod eu. Aliquam vel imperdet mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus, molestie nisi id, elementum sem. Sed vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.</p>
                     </div>
                 </div>
                 <div class="row flex-center">
                     <div class="col-12">
                         <div class="carousel slide" id="carouselExampleIndicators" data-bs-touch="false" data-bs-interval="false">
                             <div class="row align-items-center">
-                                <div class="col-md-4 mb-3 mb-md-0">
-                                    <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/1.jpeg" alt="" />
-                                        <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
-                                            <div class="ps-3 d-flex justify-content-between align-items-center">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3 mb-md-0">
-                                    <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/2.jpeg" alt="" />
-                                        <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
-                                            <div class="ps-3 d-flex justify-content-between align-items-center">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3 mb-md-0">
-                                    <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/3.jpeg" alt="" />
-                                        <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
-                                            <div class="ps-3 d-flex justify-content-between align-items-center">
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-12 col-xxl-7 px-2">
+                                    <!-- @include('galery') -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
-        <section class="pt-5">
-            <div class="container">
-                <div class="row flex-center mb-5">
-                    <div class="col-lg-8 text-center">
-                        <h1 class="fw-bold fs-md-3 fs-lg-4 fs-xl-5">About Us</h1>
-                        <hr class="mx-auto text-primary my-4" style="height:3px; width:70px;" />
-                    </div>
-                    <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <div class="row h-100 flex-center">
-                                    <div class="col-12 col-lg-7 mb-3 mb-md-0">
-                                        <div class="card h-100">
-                                            <div class="card-body d-flex flex-center flex-column">
-                                                <p class="text-center card-text mb-5">“Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at faucibus enim aliquam eu. Nullam quis pulvinar diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a nisi ut, dapibus eleifend quam.” </p>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="" /></div>
-                                                </div>
-                                                <div class="mt-3 text-center">
-                                                    <h6 class="text-1000 fw-bold">Dondon Trip Dreams</h6>
-                                                    <p class="fs--1 fw-normal mb-0">Owner</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
         <section id="booking">
             <div class="bg-holder" style="background-image:url(assets/img//gallery/booking.png);background-position:center;background-size:cover;">
             </div>
+            <!--/.bg-holder-->
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 py-8 text-white">
                         <div class="d-flex flex-column flex-center">
-                            <h2 class="text-white fs-2 fs-md-3">KAMI TUNGGU ANDA DI DONDON </h2>
+                            <h2 class="text-white fs-2 fs-md-3">KAMI TUNGGU ANDA DISINI</h2>
+                            <!-- <h1 class="text-white fs-2 fs-sm-4 fs-lg-7 fw-bold">Enjoy 30% Off On First Trip</h1> -->
                         </div>
                     </div>
                 </div>
@@ -178,7 +167,10 @@
         </section>
 
 
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section class="py-6">
+
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
@@ -188,6 +180,10 @@
                 <div class="row flex-center">
                     <div class="col-auto">
                         <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
+                                    <svg class="bi bi-tiktok" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+                                    </svg></a></li>
                             <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
                                     <svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#3984F3" viewBox="0 0 16 16">
                                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
@@ -200,8 +196,20 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
     </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
 
     <!-- ===============================================-->
     <!--    JavaScripts-->

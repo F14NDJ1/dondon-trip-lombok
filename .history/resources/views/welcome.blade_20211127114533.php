@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dondon Trip Lombok | Landing Page</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <link href="assets/css/theme.css" rel="stylesheet" />
@@ -171,6 +171,7 @@
                     <div class="col-12 py-8 text-white">
                         <div class="d-flex flex-column flex-center">
                             <h2 class="text-white fs-2 fs-md-3">KAMI TUNGGU ANDA DI DONDON </h2>
+                            <!-- <h1 class="text-white fs-2 fs-sm-4 fs-lg-7 fw-bold">Enjoy 30% Off On First Trip</h1> -->
                         </div>
                     </div>
                 </div>
@@ -178,7 +179,12 @@
         </section>
 
 
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section class="py-6">
+
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
@@ -200,8 +206,20 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
     </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
 
     <!-- ===============================================-->
     <!--    JavaScripts-->

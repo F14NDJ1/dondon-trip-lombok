@@ -5,16 +5,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
     <title>Dondon Trip Lombok | Landing Page</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
     <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <!-- <link href="vendors/plyr/plyr.css" rel="stylesheet"> -->
     <link href="assets/css/theme.css" rel="stylesheet" />
 
 </head>
 
 
 <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
     <main class="main" id="top">
         <nav class="navbar navbar-expand-lg fixed-top py-3 backdrop" data-navbar-on-scroll="data-navbar-on-scroll">
             <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"> <img class="d-inline-block align-top img-fluid img-thumbnail rounded-circle" src="img/dondon-word.png" alt="" width="50" /><span class="text-primary fs-4 ps-2">Dondon Trip Lombok</span></a>
@@ -26,28 +50,35 @@
                         <li class="nav-item"><a class="nav-link text-600" href="#gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link text-600" href="#booking">Booking </a></li>
                     </ul>
+                    <!-- <form class="ps-lg-5">
+                        <a href="/admin">Admin</a>
+                    </form> -->
                 </div>
             </div>
         </nav>
-
-
         <section class="py-0">
             <div class="bg-holder d-none d-md-block" style="background-image:url(img/kano_aja.png);background-position:right bottom;background-size:contain;">
             </div>
+            <!--/.bg-holder-->
+
             <div class="container position-relative">
                 <div class="row align-items-center min-vh-75 my-lg-8">
                     <div class="col-md-7 col-lg-6 text-center text-md-start py-8">
                         <h1 class="mb-4 display-1 lh-sm">Dondon Trip Lombok</h1>
-                        <h4>JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h4>
-                        <p class=" mt-4 mb-5 fs-1 lh-base">Liburan di Lombok kurang lengkap kalau belum cobain berbagai trip di pantai Dondon. <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Tunggu Apa lagi
-                            pesan sekarang juga!</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
+                        <!-- <h5 class="">JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h5> -->
+                        <h4>JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h5>
+                            <p class=" mt-4 mb-5 fs-1 lh-base">Liburan di Lombok kurang lengkap kalau belum cobain berbagai trip di pantai Dondon. <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Tunggu Apa lagi
+                                pesan sekarang juga!</p><a class="btn btn-lg btn-success hover-top" href="#" role="button">WhatsApp Me</a>
                     </div>
                 </div>
             </div>
         </section>
 
 
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section id="places">
+
             <div class="container">
                 <div class="row flex-md-center">
                     <div class="col-md-11 col-lg-4 py-md-3 px-4 px-md-3 px-lg-0 px-xl-2 order-lg-1">
@@ -82,10 +113,17 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section class="pt-5" id="gallery">
+
             <div class="container">
                 <div class="row flex-center mb-5">
                     <div class="col-lg-8 text-center">
@@ -100,7 +138,10 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/1.jpeg" alt="" />
                                         <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                            <!-- <div class="pt-3"><span class="badge bg-primary">$860</span></div> -->
                                             <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                <!-- <h5 class="text-white">Maldives</h5>
+                                                <h6 class="text-600">3 days</h6> -->
                                             </div>
                                         </div>
                                     </div>
@@ -108,7 +149,10 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/2.jpeg" alt="" />
                                         <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                            <!-- <div class="pt-3"><span class="badge bg-primary">$860</span></div> -->
                                             <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                <!-- <h5 class="text-white">Indonesia</h5>
+                                                <h6 class="text-600">7 days</h6> -->
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +160,10 @@
                                 <div class="col-md-4 mb-3 mb-md-0">
                                     <div class="card h-100 text-white hover-top"><img class="img-fluid h-100" src="img/3.jpeg" alt="" />
                                         <div class="card-img-overlay ps-0 d-flex flex-column justify-content-between bg-dark-gradient">
+                                            <!-- <div class="pt-3"><span class="badge bg-primary">$340</span></div> -->
                                             <div class="ps-3 d-flex justify-content-between align-items-center">
+                                                <!-- <h5 class="text-white">Kathmandu</h5>
+                                                <h6 class="text-600">5 days</h6> -->
                                             </div>
                                         </div>
                                     </div>
@@ -126,10 +173,13 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
         </section>
-
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
         <section class="pt-5">
+
             <div class="container">
                 <div class="row flex-center mb-5">
                     <div class="col-lg-8 text-center">
@@ -160,17 +210,24 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
 
         <section id="booking">
             <div class="bg-holder" style="background-image:url(assets/img//gallery/booking.png);background-position:center;background-size:cover;">
             </div>
+            <!--/.bg-holder-->
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 py-8 text-white">
                         <div class="d-flex flex-column flex-center">
                             <h2 class="text-white fs-2 fs-md-3">KAMI TUNGGU ANDA DI DONDON </h2>
+                            <!-- <h1 class="text-white fs-2 fs-sm-4 fs-lg-7 fw-bold">Enjoy 30% Off On First Trip</h1> -->
                         </div>
                     </div>
                 </div>
@@ -178,7 +235,12 @@
         </section>
 
 
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
         <section class="py-6">
+
             <div class="container">
                 <div class="row flex-center">
                     <div class="col-auto mb-4">
@@ -200,8 +262,20 @@
                     </div>
                 </div>
             </div>
+            <!-- end of .container-->
+
         </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
     </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
 
     <!-- ===============================================-->
     <!--    JavaScripts-->

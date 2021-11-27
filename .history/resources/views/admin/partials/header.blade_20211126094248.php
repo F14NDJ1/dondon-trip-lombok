@@ -77,6 +77,7 @@
         <!-- Main content -->
         <div class="content-wrapper">
             @yield('container')
+            <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
 
