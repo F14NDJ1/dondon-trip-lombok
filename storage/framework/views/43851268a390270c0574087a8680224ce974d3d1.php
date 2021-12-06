@@ -1,0 +1,1 @@
+<h1>tes</h1><?php /**PATH E:\Laravel\dondon-beach\resources\views/galery.blade.php ENDPATH**/ ?>
