@@ -53,22 +53,22 @@ class ProdukController extends Controller
             'deskripsi' => 'required|max:255'
         ]);
 
-        // $gambar = $request->file('gambar');
-        // dd($gambar);
-
-        // $gambar1 = time() . "_" . $gambar->getClientOriginalName();
+        $gambar = $request->file('gambar');
 
 
-        // //menyimpan data foto ke dlm folder yg dibuat
+        $gambar1 = time() . "_" . $gambar->getClientOriginalName();
 
-        // $tujuan_upload = 'data_gambar';
 
-        // $gambar->move($tujuan_upload, $gambar1);
+        //menyimpan data foto ke dlm folder yg dibuat
+
+        $tujuan_upload = 'data_gambar';
+
+        $gambar->move($tujuan_upload, $gambar1);
 
         // -------------------------------------------
-        if ($request->file('gambar')) {
-            $valid_data['gambar'] = $request->file('gambar')->store('produk-jasa');
-        }
+        // if ($request->file('gambar')) {
+        //     $valid_data['gambar'] = $request->file('gambar')->store('produk-jasa');
+        // }
 
         Produk::create($valid_data);
         return redirect('/produk')->with('toast_success', 'Data Berhasil Ditambah!');

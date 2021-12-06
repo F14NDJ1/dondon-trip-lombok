@@ -29,7 +29,7 @@ class AdminController extends Controller
             'password' => 'required',
         ]);
 
-        User::create([
+        return User::create([
             'username' => $valid_data['username'],
             'password' => Hash::make($valid_data['password']),
         ]);
@@ -39,7 +39,6 @@ class AdminController extends Controller
 
     public function destroy(User $user)
     {
-        dd($user);
         User::destroy($user->id);
         if ($user->id == null) {
             # code...

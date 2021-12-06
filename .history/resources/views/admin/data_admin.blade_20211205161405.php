@@ -67,14 +67,14 @@
                             <thead>
                                 <tr>
                                     <th>Username</th>
-                                    <th class="text-center" width="100px">Hapus</th>
+                                    <th width="100px">Hapus</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($admin as $ad)
                                 <tr>
                                     <td>{{$ad["username"]}}</td>
-                                    <td class="text-center">
+                                    <td>
                                         <form action="/data_admin/data_admins/{{$ad->id}}" method="post" class="d-inline">
                                             @method ('delete')
                                             @csrf
@@ -101,9 +101,8 @@
     </div>
     <!-- /.container-fluid -->
 </section>
-@include('sweetalert::alert')
-@endsection
 
+@endsection
 <script src="/admin/plugins/jquery/jquery.min.js"></script>
 <script src="/admin/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -130,3 +129,6 @@
         });
     });
 </script>
+
+<!-- @if(session()->has( 'success'))
+                            @endif -->

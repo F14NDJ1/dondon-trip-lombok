@@ -97,8 +97,7 @@
                                     <td>{{$produk["kategori"]}}</td>
                                     <td width="50px">{{$produk["nama_produk"]}}</td>
                                     <td>Rp. {{$produk["harga_produk"]}}</td>
-                                    <td class="text-center"><img src="{{$produk['gambar']}}" alt="" width="200px"></td>
-                                    <!-- <td class="text-center"><img src="/data_gambar/.{{$produk['gambar']}}" alt="" width="200px"></td> -->
+                                    <td class="text-center"><img src="/data_gambar/.{{$produk['gambar']}}" alt="" width="200px"></td>
                                     <td>{{$produk["deskripsi"]}}</td>
                                     <td class="text-center">
                                         <!-- <a href="" class="badge bg-info"><i class="fas fa-eye d-inline"></i></span></a> -->

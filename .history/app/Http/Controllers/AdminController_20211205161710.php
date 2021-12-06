@@ -29,7 +29,7 @@ class AdminController extends Controller
             'password' => 'required',
         ]);
 
-        User::create([
+        return User::create([
             'username' => $valid_data['username'],
             'password' => Hash::make($valid_data['password']),
         ]);

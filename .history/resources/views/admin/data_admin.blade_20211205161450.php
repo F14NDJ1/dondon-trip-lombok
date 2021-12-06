@@ -67,7 +67,7 @@
                             <thead>
                                 <tr>
                                     <th>Username</th>
-                                    <th class="text-center" width="100px">Hapus</th>
+                                    <th width="100px">Hapus</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -101,9 +101,8 @@
     </div>
     <!-- /.container-fluid -->
 </section>
-@include('sweetalert::alert')
-@endsection
 
+@endsection
 <script src="/admin/plugins/jquery/jquery.min.js"></script>
 <script src="/admin/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -130,3 +129,6 @@
         });
     });
 </script>
+
+<!-- @if(session()->has( 'success'))
+                            @endif -->

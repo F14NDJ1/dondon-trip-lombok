@@ -91,9 +91,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #091e40;
 }
 
-@media (max-width: 408px) {
-  div.up{
-    font-size: 20px;
+@media screen and (max-width: 640px) {
+  span.up {
+    font-size: 30px;
   }
 }
 

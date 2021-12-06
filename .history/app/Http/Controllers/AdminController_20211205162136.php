@@ -29,12 +29,12 @@ class AdminController extends Controller
             'password' => 'required',
         ]);
 
-        User::create([
-            'username' => $valid_data['username'],
-            'password' => Hash::make($valid_data['password']),
-        ]);
+        // return User::create([
+        //     'username' => $valid_data['username'],
+        //     'password' => Hash::make($valid_data['password']),
+        // ]);
 
-        return redirect('/data_admin')->with('toast_success', 'Data Berhasil Ditambah!');
+        // return redirect('/data_admin')->with('toast_success', 'Data Berhasil Ditambah!');
     }
 
     public function destroy(User $user)

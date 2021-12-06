@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {!! SEOMeta::generate() !!}
+    <!-- {!! SEOMeta::generate() !!} -->
     <link rel="shortcut icon" type="image/x-icon" href="/img/dondon-word.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -23,9 +23,7 @@
 <body>
     <main class="main" id="top">
         <nav class="navbar navbar-expand-lg fixed-top py-3 backdrop" data-navbar-on-scroll="data-navbar-on-scroll">
-            <div class="container up"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"> <img class="d-inline-block align-top img-fluid img-thumbnail rounded-circle" src="img/dondon-word.png" alt="" width="50" /><span class="text-primary fs-4 ps-2">
-                        <div class="up">Dondon Trip Lombok</div>
-                    </span></a>
+            <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"> <img class="d-inline-block align-top img-fluid img-thumbnail rounded-circle" src="img/dondon-word.png" alt="" width="50" /><span class="text-primary fs-4 ps-2">Dondon Trip Lombok</span></a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
@@ -45,8 +43,8 @@
             <div class="container position-relative">
                 <div class="row align-items-center min-vh-75 my-lg-8">
                     <div class="col-md-7 col-lg-6 text-center text-md-start py-8">
-                        <!-- <h1 class="mb-4 display-1 lh-sm">JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h1> -->
-                        <h3>JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h3>
+                        <h1 class="mb-4 display-1 lh-sm">JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h1>
+                        <!-- <h4>JANGAN KE LOMBOK NANTI GAK MAU PULANG!</h4> -->
                         <p class=" mt-4 mb-5 fs-1 lh-base">Liburan di Lombok kurang lengkap kalau belum cobain berbagai trip di pantai Dondon. <br class="d-none d-lg-block" />Berbagai Trip menarik dan Jasa kami sediakan disini. <br class="d-none d-lg-block" />Tunggu Apa lagi
                             pesan sekarang juga!</p><a class="btn btn-lg btn-success hover-top" href="https://wa.link/uqjn7k" role="button">WhatsApp Me</a>
                     </div>

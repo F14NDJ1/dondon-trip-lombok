@@ -55,7 +55,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/produk', [ProdukController::class, 'index'])->middleware('auth');
     Route::resource('/produk/produks', ProdukController::class)->middleware('auth');
     Route::get('/data_admin', [AdminController::class, 'index'])->middleware('auth');
-    Route::resource('/data_admin/data_admins', AdminController::class)->middleware('auth');
+    Route::get('/data_admin/tambah', [AdminController::class, 'tambah'])->middleware('auth');
 });
 
 
