@@ -57,7 +57,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/data_admin', [AdminController::class, 'index'])->middleware('auth');
     Route::resource('/data_admin/data_admins', AdminController::class)->middleware('auth');
 
-    Route::delete('/data_admin/data/{data_admin}', [AdminController::class, 'destroying'])->middleware('auth');
+    Route::delete('/dataa_admin/data/{id}', [AdminController::class, 'destroying'])->middleware('auth');
 });
 
 

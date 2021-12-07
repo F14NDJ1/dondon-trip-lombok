@@ -67,7 +67,6 @@
                             <thead>
                                 <tr>
                                     <th>Username</th>
-                                    <th>id</th>
                                     <th class="text-center" width="100px">Hapus</th>
                                 </tr>
                             </thead>
@@ -75,13 +74,18 @@
                                 <?php $__currentLoopData = $admin; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $user): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <tr>
                                     <td><?php echo e($user["username"]); ?></td>
-                                    <td><?php echo e($user["id"]); ?></td>
                                     <td class="text-center">
-                                        <form action="/data_admin/data_admins/<?php echo e($user->id); ?>" method="post" class="d-inline">
+                                        <!-- <form action="<?php echo e(url ('data_admin/data_admins/'.$user->id)); ?>" method="post" class="d-inline">
+                                            <?php echo method_field('delete'); ?>
+                                            <?php echo csrf_field(); ?>
+                                            <button class="badge badge-danger border-0" onclick="return confirm('Ingin menghapus data?')"><i class="fas fa-trash-alt"></i></button>
+                                        </form> -->
+                                        <form action="<?php echo e(url ('data_admin/data/'.$user->id)); ?>" method="post" class="d-inline">
                                             <?php echo method_field('delete'); ?>
                                             <?php echo csrf_field(); ?>
                                             <button class="badge badge-danger border-0" onclick="return confirm('Ingin menghapus data?')"><i class="fas fa-trash-alt"></i></button>
                                         </form>
+
                                     </td>
                                 </tr>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
@@ -89,7 +93,7 @@
                             <tfoot>
                                 <tr>
                                     <th>Username</th>
-                                    <th>ID</th>
+                                    <th class="text-center" width="100px">Hapus</th>
                                 </tr>
                             </tfoot>
                         </table>

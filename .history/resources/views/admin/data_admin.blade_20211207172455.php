@@ -93,7 +93,6 @@
                             <tfoot>
                                 <tr>
                                     <th>Username</th>
-                                    <th class="text-center" width="100px">Hapus</th>
                                 </tr>
                             </tfoot>
                         </table>

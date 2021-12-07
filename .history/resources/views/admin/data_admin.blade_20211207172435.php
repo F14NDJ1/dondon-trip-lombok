@@ -67,6 +67,7 @@
                             <thead>
                                 <tr>
                                     <th>Username</th>
+                                    <th>id</th>
                                     <th class="text-center" width="100px">Hapus</th>
                                 </tr>
                             </thead>
@@ -74,6 +75,7 @@
                                 @foreach ($admin as $user)
                                 <tr>
                                     <td>{{$user["username"]}}</td>
+                                    <!-- <td>{{$user["id"]}}</td> -->
                                     <td class="text-center">
                                         <!-- <form action="{{ url ('data_admin/data_admins/'.$user->id) }}" method="post" class="d-inline">
                                             @method ('delete')
@@ -93,7 +95,7 @@
                             <tfoot>
                                 <tr>
                                     <th>Username</th>
-                                    <th class="text-center" width="100px">Hapus</th>
+                                    <th>ID</th>
                                 </tr>
                             </tfoot>
                         </table>

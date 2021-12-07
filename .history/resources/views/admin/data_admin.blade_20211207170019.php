@@ -67,6 +67,7 @@
                             <thead>
                                 <tr>
                                     <th>Username</th>
+                                    <th>id</th>
                                     <th class="text-center" width="100px">Hapus</th>
                                 </tr>
                             </thead>
@@ -74,13 +75,14 @@
                                 @foreach ($admin as $user)
                                 <tr>
                                     <td>{{$user["username"]}}</td>
+                                    <td>{{$user["id"]}}</td>
                                     <td class="text-center">
-                                        <!-- <form action="{{ url ('data_admin/data_admins/'.$user->id) }}" method="post" class="d-inline">
+                                        <form action="/data_admin/data_admins/{{$user->id}}/" method="post" class="d-inline">
                                             @method ('delete')
                                             @csrf
                                             <button class="badge badge-danger border-0" onclick="return confirm('Ingin menghapus data?')"><i class="fas fa-trash-alt"></i></button>
-                                        </form> -->
-                                        <form action="{{ url ('data_admin/data/'.$user->id) }}" method="post" class="d-inline">
+                                        </form>
+                                        <form action="{{ url'(/data_admin/data_admins/'.{{$user->id}}/}}" method="post" class="d-inline">
                                             @method ('delete')
                                             @csrf
                                             <button class="badge badge-danger border-0" onclick="return confirm('Ingin menghapus data?')"><i class="fas fa-trash-alt"></i></button>
@@ -93,7 +95,7 @@
                             <tfoot>
                                 <tr>
                                     <th>Username</th>
-                                    <th class="text-center" width="100px">Hapus</th>
+                                    <th>ID</th>
                                 </tr>
                             </tfoot>
                         </table>

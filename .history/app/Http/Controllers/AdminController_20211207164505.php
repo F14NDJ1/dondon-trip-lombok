@@ -44,25 +44,23 @@ class AdminController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    // public function destroy(User $user)
-    // {
-    //     dd($user->id);
-    //     // User::destroy($user->id);
-    //     $user->delete();
-    //     if ($user->id == null) {
-    //         # code...
-    //         return redirect('/data_admin')->with('toast_error', 'Data Gagal Di hapus!');
-    //     } else {
-    //         return redirect('/data_admin')->with('toast_success', 'Data Berhasil Dihapus!');
-    //     };
-    // }
-
-    public function destroying($id)
+    public function destroy(User $user)
     {
-        // dd($id);
-        // $last = $id;
-        User::destroy($id);
-        if ($id == null) {
+        dd($user->id);
+        User::destroy($user->id);
+        if ($user->id == null) {
+            # code...
+            return redirect('/data_admin')->with('toast_error', 'Data Gagal Di hapus!');
+        } else {
+            return redirect('/data_admin')->with('toast_success', 'Data Berhasil Dihapus!');
+        };
+    }
+
+    public function destroying(User $user)
+    {
+        dd($user->id);
+        User::destroy($user->id);
+        if ($user->id == null) {
             # code...
             return redirect('/data_admin')->with('toast_error', 'Data Gagal Di hapus!');
         } else {
